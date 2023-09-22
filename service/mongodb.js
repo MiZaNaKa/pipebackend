@@ -30,7 +30,7 @@ class MongoDBService {
     async connect(url){
         var con = await mongoClient.connect(url, {useNewUrlParser: true, useUnifiedTopology: true });
 
-        this.db = con.db('Plats');  
+        this.db = con.db('Pipe');  
     }
 
 
