@@ -8,7 +8,8 @@ class MongoDBService {
         // mongodb://pipe:gorqNLsayFFaz2AuUgQsIjYDhT7HlXS4xNqVIAuRKqPazIJQ4Tmy7ErPtKM652w1Es3wOsfg6CaKACDbrU0LCA==@pipe.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@pipe@
         // this.dbUrl = "mongodb+srv://KhinKhinThant:kktkkt295810@cluster0.ccbic.mongodb.net/";
         // this.dbUrl ='mongodb://pipe:gorqNLsayFFaz2AuUgQsIjYDhT7HlXS4xNqVIAuRKqPazIJQ4Tmy7ErPtKM652w1Es3wOsfg6CaKACDbrU0LCA==@pipe.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@pipe@'
-        this.dbUrl = 'mongodb+srv://platsadmin:66Gateway@cluster0.lj2q0mg.mongodb.net/Plats';
+        // this.dbUrl = 'mongodb+srv://platsadmin:66Gateway@cluster0.lj2q0mg.mongodb.net/Plats';
+        this.dbUrl='mongodb+srv://memory:kkTkkT123@cluster0.77ngany.mongodb.net/'
         this.db = null;
         this.gfs = null;
         this.uploadGridFS = null;
